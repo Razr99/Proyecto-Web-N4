@@ -1,0 +1,95 @@
+/*Estilos para le menu*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*ESTILOS GENERALES: Color y padding para el menu*/
+header .contenedor{
+    padding: 10px 20px 85px 5px;
+    background: rgb(255, 101, 195);
+}
+
+.menu {
+    padding: 0 0 10px 0;
+}
+
+.menu ul{
+    list-style: none;
+    padding: 0;
+}
+
+#ultimo-menu {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.menu ul .menu1{
+    padding: 0 40px 0 40px;
+}
+
+.menu ul li a{
+    padding: 10px 5px;
+    display: block;
+    font-size: 25px;
+    color: #f9f9f9;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+/*PARTE DEL MENU DERECHO*/
+.contenedor .logo{
+    float: left;
+}
+
+.contenedor #id-user{
+    float: right;
+}
+
+.fa-user-circle{
+    padding: 0 5px;
+}
+
+header .contenedor .logo{
+    padding-left: 10px;
+}
+
+/*Hover del primer ul*/
+.menu a:hover{
+    color: #00a8cc;
+
+}
+
+
+/*PRIMER NIEVEL*/
+.menu > ul {
+    float: left;
+}
+
+.menu > ul > li{
+    padding: 38px 0 17px 0;
+    float: right;
+}
+
+
+/*SEGUNDO NIVEL*/
+.menu li li{
+    background:#ffaaa5;
+    max-height: 0;
+    overflow: hidden;
+    transition: all .4s;
+}
+
+nav li:hover > ul > li {
+    max-height: 1000px;
+    overflow: visible;
+}
+
+.menu > ul > li > ul{
+    position: absolute;
+    padding: 27px 0;
+}

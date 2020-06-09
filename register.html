@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrate | MF Publicidad</title>
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo.jpg">
+    <script src="https://kit.fontawesome.com/74a0b75cb7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.jpg" alt="Logo" title="Inicio" width="80px"></a>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a title="Contactanos" class="menu1" href="contacto.html">Contacto</a></li>
+                    <li><a title="Nuestros servicios" class="menu1 submenu icon-angle-down" href="servicios.html">Servicios</a>
+                        <ul>
+                            <li><a title="Impresión Digital" href="impresion_digital.html">Impresión Digital</a></li>
+                            <li><a title="Diseño Gráfico y Social" href="diseño_grafico.html">Diseño Gráfico y Social</a></li>
+                            <li><a title="Artículos Promocionales" href="art_promocionales.html">Artículos Promocionales</a></li>
+                            <li id="ultimo-menu"><a title="Cotizaciones" href="cotizaciones.html">Cotizaciones</a></li>
+                        </ul>
+                    </li>
+                    <li><a title="Informacion acerda de nosotros" class="menu1" href="nosotros.html">Nosotros</a></li>
+                    <li><a title="Inicio" class="menu1" href="index.html">Inicio</a></li>
+                </ul>
+                <ul id="id-user">
+                    <li><a title="Mi Cuenta" class="menu1" href="php/cuenta.php"><i class="fas fa-user-circle"></i>Mi Cuenta</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="register">
+        <div class="container">
+            <section>
+                <img src="img/register.svg" alt="register">
+            </section>
+            <section>
+                <div class="contenedor-form">
+                    <h1>Regístrate</h1>
+                    <form method="POST" action="php/registrar.php">
+                        <p>
+                            <label for="nombre">
+                                <input type="text" name="nombre" placeholder="Nombre" required>
+                            </label>
+                        </p>
+                        <p>
+                            <label for="apellido">
+                                <input type="text" name="apellido" placeholder="Apellidos" required>
+                            </label>
+                        </p>
+                        <p>
+                            <label for="correo">
+                                <input type="text" name="correo" placeholder="Correo electrónico" required>
+                            </label>
+                        </p>
+                        <p>
+                            <label for="contraseña">
+                                <input type="password" name="contraseña" placeholder="Contraseña" required>    
+                            </label>
+                        </p>
+                        <p>
+                            <label for="telefono">
+                                <input type="number" name="telefono" placeholder="10 digitos" required>
+                            </label>
+                        </p>
+                        <hr>
+                        <label for="enviar">
+                            <input id="ingresar" type="submit" value="Enviar">
+                        </label>
+                    </form>
+                    <p class="ingresar">¿Ya cuentas con una cuenta? ingresa <a href="login.html">aquí</a></p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <section>
+            <div class="redes">
+                <a href="https://www.facebook.com/MF-Publicidad-107383334062019/" class="icon-facebook" target="_blank"></a>
+                <a href="https://www.instagram.com/mf.publicidad19/?hl=es-la" class="icon-instagram" target="_blank"></a>
+            </div>
+            <div class="contactos">
+                <p>mf.publicidad19@gmail.com</p>
+            </div>
+        </section>
+        <p>&copy; 2020</p>
+    </footer>
+</body>
+</html>

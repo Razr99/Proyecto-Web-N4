@@ -1,0 +1,22 @@
+@import url(menu.css);
+@import url(footer.css);
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #f0f0f0;
+}
+
+.container {
+    padding: 200px 20%;
+    color: #584153;
+}
+
+.container p {
+    color: #7d5a5a; 
+    text-align: justify;
+    padding-bottom: 75px;
+}
+
+h1, h2{
+    font-size: 40px;
+}

@@ -1,0 +1,80 @@
+@import url(menu.css);
+@import url(footer.css);
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #f0f0f0;
+}
+
+/*Contenedor del formulario*/
+.login{
+    padding: 100px 0 300px 0;
+}
+
+.container{
+    display: flex;
+}
+
+.container section{
+    width: 100%;
+    text-align: center;
+}
+
+.login .container section img{
+    width: 500px;
+}
+
+/*FORMULARIO*/
+h1{
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+form {
+    padding-bottom: 20px;
+}
+
+.contenedor-form {
+    margin: 0 25% 0 25%;
+    padding: 0 0 10px 0;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.8);
+}
+
+.contenedor-form p{
+    padding: 8px 0;
+}
+
+.contenedor-form p label input, textarea{
+    width: 250px;
+    padding: 10px 7px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+hr{
+    margin: 21px 50px 30px 50px;
+}
+
+.contenedor-form #ingresar{
+    font-size: 23px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #f9f9f9;
+    background: #342ead;
+    padding: 8px 18px 8px 18px;
+    border-radius: 38px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.contenedor-form #ingresar:hover{
+    background: #00a8cc;
+}
+
+.contenedor-form #registrar{
+    padding-top: 50px;
+}

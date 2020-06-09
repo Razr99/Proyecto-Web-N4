@@ -1,0 +1,113 @@
+@import url(menu.css);
+@import url(footer.css);
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #f0f0f0;
+}
+
+.contenedor-tarjetas {
+    background: #333;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-tarjetas h3{
+    padding: 5px 5px 5px 5px;
+}
+
+.container section img {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    padding: 200px 0;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container .tarjeta{
+    position: relative;
+    padding: 35px 0;
+}
+
+.container .tarjeta .face {
+    width: 300px;
+    height: 200px;
+    transition: .5s;
+}
+
+.container .tarjeta .face.face1{
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.container .tarjeta .face.face1 .content{
+    opacity: 0.2;
+    transition: 0.5s;
+}
+
+.container .tarjeta:hover .face.face1 .content{
+    opacity: 1;
+}
+
+.container .tarjeta .face.face1 {
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+.container .tarjeta:hover .face.face1{
+    transform: translateY(0px);
+}
+
+.container .tarjeta .face.face2{
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+}
+
+.container .tarjeta:hover .face.face2{
+    transform: translateY(0px);
+}
+
+.container .tarjeta .face.face2 .content p{
+    margin: 0;
+    padding: 0;
+}
+
+.container .tarjeta .face.face2 .content a{
+    margin: 15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    color: #f9f9f9;
+    background: #332863;
+    padding: 7px;
+    border-radius: 3px;
+    transition: .3s;
+}
+
+.container .tarjeta .face.face2 .content a:hover{
+    background: #202040;
+    color: #ccc;
+}

@@ -1,0 +1,68 @@
+@import url(menu.css);
+@import url(footer.css);
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #f0f0f0;
+}
+
+/*CUERPO DE CONTACTOS*/
+.container {
+    padding: 200px 300px;
+}
+
+.container .contacto{
+    display: flex;
+}
+
+.contacto section {
+    width: 100%;
+    text-align: center;
+}
+
+/*REDES*/
+h1{
+    font-size: 35px;
+    padding-top: 26px;
+    padding-bottom: 60px;
+}
+
+.contacto ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.contacto ul li a{
+    text-decoration: none;
+    font-size: 40px;
+    color: #708160;
+    transition: .3s;
+    padding: 0 10px;
+}
+
+.contacto ul li a:hover{
+    color: #3f3f44;
+}
+
+/*Correo*/
+
+h3{
+    font-size: 26px;
+    padding-top: 75px;
+}
+
+.container .contacto section p {
+    font-size: 23px;
+    font-weight: 600;
+    color: #708160;
+}
