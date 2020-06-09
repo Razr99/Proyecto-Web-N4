@@ -27,7 +27,7 @@
             <nav class="menu">
                 <ul>
                     <li><a title="Contactanos" class="menu1" href="../contacto.html">Contacto</a></li>
-                    <li><a title="Nuestros servicios" class="menu1 submenu icon-angle-down" href="../servicios.html">Servicios</a>
+                    <li><a title="Nuestros servicios" class="menu1 submenu icon-angle-down" href="../servicios.php">Servicios</a>
                         <ul>
                             <li><a title="Impresión Digital" href="../impresion_digital.html">Impresión Digital</a></li>
                             <li><a title="Diseño Gráfico y Social" href="../diseño_grafico.html">Diseño Gráfico y Social</a></li>
@@ -44,7 +44,14 @@
     <article>
         <h1>Mi Cuenta</h1>
         <h2>Aqui vendra la info de la cuenta y su carrito de compras</h2>
-        <a href="usuarios.php"><input type="button" value="Usuarios en la plataforma"></a>
+        <br>
+        <br>
+        <br>
+        <img align="center" width="600px" heigth="500px" src="../img/carga.gif" alt="">
+        <br>
+        <h1>Fuera de servicio temporalmente</h1>
+        <br>
+        <br>
         <a href="cerrarsesion.php"><input type="button" value="Cerrar Sesion"></a>
     </article>
     <footer>

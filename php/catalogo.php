@@ -10,7 +10,7 @@
                     <section class="tarjeta">
                     <div class="face face1">
                         <div class="content">
-                            <img src="" alt="Imagen">
+                            <img width="300px" height="200px" src="data:image/jpg;base64,<?php echo base64_encode($row['img']); ?>" alt="Imagen">
                         </div>
                     </div>
                     <div class="face face2">

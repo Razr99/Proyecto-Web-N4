@@ -1,6 +1,6 @@
 <main class="formulario">
     <img class="formulario_img" src="" alt="" srcset="">
-    <form class="formulario_tabla" method="post" action="php/Registrar.php">
+    <form class="formulario_tabla" method="post" action="Registrar.php">
         <div class="formulario_titulo"><h2>Vamos a Registrarte</h2></div>
         <div class="formulario_nombre"><label for="nombre">Nombre:<br><input class="formulario_captura" type="text" name="nombre" maxlength="16" placeholder="Nombre" required ></label></div>
         <div class="formulario_apellido"><label for="apellido">Apellido:<br><input class="formulario_captura" type="text" name="apellido" maxlength="16" placeholder="Apellido" required></label></div>

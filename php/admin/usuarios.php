@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciar Sesión | MF Publicidad</title>
-    <link rel="stylesheet" href="../../css/login.css">
-    <link rel="stylesheet" href="../../css/fontello.css">
+    <title>MF Publicidad | Cotizaciones</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/estilos.css">
+    <link rel="stylesheet" href="../../css/fontello.css">
     <link rel="shortcut icon" href="../../img/logo.jpg">
 </head>
 <body>
@@ -32,42 +32,16 @@
             </nav>
         </div>
     </header>
-
-    <div class="login">
-        <div class="container">
-            <section>
-                <img src="../../img/login.svg">
-            </section>
-            <section>
-                <div class="contenedor-form">
-                    <h1>Lo sentimos no se pudo iniciar sesion porfavor intentelo nuevamente.</h1>
-                    <form method="POST"action="../login.php">
-                        <p>
-                            <label for="correo"><input type="text" name="correo" placeholder="Correo electrónico" required></label>
-                        </p>
-                        <p>
-                            <label for="contraseña"><input type="password" name="contraseña" placeholder="Contraseña" required></label>
-                        </p>
-                        <hr>
-                        <input id="ingresar" type="submit" value="Ingresar">
-                    </form>
-                    <p id="registrar">¿No tienes cuenta? Registrate <a href="../../register.html">aquí</a></p>
-                </div>
-            </section>
-        </div>
-    </div>
-
+    <article>
+        <h1>Cuentas Registradas</h1>
+        <h2>Indice de Cuentas</h2>
+    </article>
+    <?php
+    include("listadeusuarios.php");
+    ?>
+        <a href="../cerrarsesion.php"><input type="button" value="Cerrar Sesion"></a>
     <footer>
-        <section>
-            <div class="redes">
-                <a href="https://www.facebook.com/MF-Publicidad-107383334062019/" class="icon-facebook" target="_blank"></a>
-                <a href="https://www.instagram.com/mf.publicidad19/?hl=es-la" class="icon-instagram" target="_blank"></a>
-            </div>
-            <div class="contactos">
-                <p>mf.publicidad19@gmail.com</p>
-            </div>
-        </section>
-        <p>&copy; 2020</p>
+
     </footer>
 </body>
 </html>
